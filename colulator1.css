@@ -1,0 +1,68 @@
+.retang{
+    background-color: rgb(183, 199, 197);
+    width: 440px;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.calcu{
+    border:solid 2px black;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 9px;
+}
+#calc{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(6, 100px);
+    column-gap: 6px;
+    row-gap: 7px;
+    
+
+}
+.mais{
+    grid-column-start: 4;
+    grid-column-end:  5;
+    grid-row-start:2 ;
+    grid-row-end: 4 ;
+
+}
+.zero{
+    grid-row-start:5 ;
+    grid-row-end: 6 ;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.del{
+    grid-row-start:5 ;
+    grid-row-end: 6 ;
+}
+.enter{
+    grid-column-start: 4;
+    grid-column-end:  5;
+    grid-row-start:4 ;
+    grid-row-end: 6;
+}
+.red{
+    box-shadow: 0px 3px 10px 2px rgb(247, 2, 2);
+}
+.yellow{
+    box-shadow: 0px 3px 10px 2px rgb(210, 247, 2);
+}
+.gren{
+    box-shadow: 0px 3px 10px 2px rgb(106, 240, 17);
+}
+.blue{
+    box-shadow: 0px 3px 10px 2px rgb(2, 247, 206);
+}
+.roxo{
+    box-shadow: 0px 3px 10px 2px rgb(160, 11, 230);
+}
+
+
+
